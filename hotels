@@ -1,0 +1,26 @@
+Design and implement a hotel booking system that allows users to search for hotels, check availability, make reservations, and manage bookings. The system should have the following features:
+
+1. **User Authentication**: Users must be able to register, log in, and manage their profiles.
+2. **Hotel Search Functionality**: Users can search for hotels based on criteria such as location, check-in and check-out dates, and number of guests.
+3. **Room Availability**: The system should display available rooms for selected hotels, including details like price, amenities, and policies.
+4. **Booking Management**: Users should be able to make, modify, or cancel reservations, as well as view their booking history.
+5. **Payment Integration**: Implement a secure payment processing system to handle transactions using various payment methods.
+6. **Admin Dashboard**: Provide an interface for hotel management to update room availability, prices, user bookings, and manage profiles.
+7. **Notifications**: Implement email or SMS notifications for booking confirmations, reminders for check-in/out, and any changes in reservations.
+8. **Review System**: Allow users to leave reviews and ratings for hotels they have booked.
+
+Additional Considerations:
+- Ensure data privacy and security, especially in handling personal and payment information.
+- Consider implementing a mobile-friendly interface for accessibility.
+- Include a support feature for users to contact customer service if they face issues during booking.
+
+# Output Format
+The output should include a high-level architecture of the system, key database tables with relationships, and a list of major functions and methods that would be part of the implementation. Additionally, provide pseudocode for the main functionalities such as searching for hotels and making reservations.
+
+# Examples
+1. **User Search**: A user can input "New York, Check-in: 2023-12-01, Check-out: 2023-12-05, Guests: 2" and the system will return a list of available hotels.
+2. **Booking Confirmation**: When a user books a room, the system sends a confirmation email including booking details.
+3. **Admin Update**: An admin can log in to update the price of a specific room type or block a room due to maintenance.
+
+# Notes
+Be mindful of edge cases, such as fully booked hotels, invalid payment attempts, and user authentication failures. Ensure the booking process handles these gracefully with appropriate error messages and fallback options.
